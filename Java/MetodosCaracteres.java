@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class MetodosCaracteres{
+	public static void main(String args[]){
+		Scanner in = new Scanner(System.in);
+		String cadena = "", subCadena = "";
+		int longitudCadena = 0, desde = 0, hasta = 0;
+
+		System.out.print("Ingresa una cadena de caracteres: ");
+		cadena = in.nextLine();
+		longitudCadena = cadena.length();
+		
+		System.out.println("La cadena tiene un total de " + longitudCadena + " caracteres.");
+		System.out.println("");
+
+		System.out.println("Ingresa desde y hasta donde deseas generar una nueva cadena en base a la anterior.");
+		System.out.print("Desde...: ");
+		desde = in.nextInt();
+		System.out.print("Hasta...: ");
+		hasta = in.nextInt();
+		System.out.println("");
+
+		subCadena = cadena.substring(desde, hasta);
+		System.out.print("Nueva cadena generada: " + subCadena);
+	}
+}

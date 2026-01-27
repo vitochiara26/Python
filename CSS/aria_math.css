@@ -1,0 +1,13 @@
+.math-expression {
+  font-family: "Times New Roman", serif;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  border-left: 4px solid #007acc;
+  padding: 0.75em 1em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.math-expression sup {
+  font-size: 0.8em;
+}

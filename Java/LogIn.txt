@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class LogIn{
+	public static void main(String args[]){
+	String createdUserName = "vitochiara26";
+	String createdPassword = "27550462";
+	
+	Scanner in = new Scanner(System.in);
+	String  userName = "";	
+	String password = "";
+
+	System.out.print("Ingresa el nombre de usuario:  ");
+	userName = in.nextLine();
+
+	System.out.print("Ingresa la contraseña: ");
+	password = in.nextLine();
+
+	if (createdUserName.equals(userName) && (creatsPassword.equals(password))){
+		System.out.println("Acceso de sesion iniciado.");
+	}
+	else{
+		System.out.println("Usuario o contraseña incorrecto.");
+	}
+	}
+}

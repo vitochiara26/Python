@@ -1,0 +1,22 @@
+#custom-btn {
+  display: inline-block;
+  padding: 0.4em 1em;
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: buttontext;
+  background-color: buttonface;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+#custom-btn:focus {
+  outline: 2px solid Highlight;
+  outline-offset: 2px;
+}
+
+#custom-btn:active {
+  background-color: #ddd;
+}

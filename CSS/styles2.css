@@ -1,0 +1,15 @@
+a:visited {
+    color: rgb(95, 69, 24);
+}
+
+a:hover {
+    color: rgb(53, 242, 28);
+}
+
+a:focus {
+    color:rgb(255, 247, 0);
+}
+
+a:active {
+    color: black
+}
